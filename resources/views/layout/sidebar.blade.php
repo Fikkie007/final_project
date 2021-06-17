@@ -21,10 +21,10 @@
             <li class="{{ ( $act == 'banks') ? 'active' : ''}}"><a href="{{url('banks')}}"><em class="fa fa-bank">&nbsp;</em> Bank </a></li>
             <li class="{{ ( $act == 'vendors') ? 'active' : ''}}"><a  href="{{url('vendors')}}"><em class="fa fa-industry">&nbsp;</em> Vendor car</a></li>
             <li class="{{ ( $act == 'cars') ? 'active' : ''}}"><a href="{{url('cars')}}"><em class="fa fa-car">&nbsp;</em> Car </a></li>
-            <!-- <li class="{{ ( $act == 'transactions') ? 'active' : ''}}"><a href="{{url('transactions')}}"><em class="fa fa-exchange">&nbsp;</em> Transaction</a></li>
+            <li class="{{ ( $act == 'transactions') ? 'active' : ''}}"><a href="{{url('transactions')}}"><em class="fa fa-exchange">&nbsp;</em> Transaction</a></li>
             <li class="{{ ( $act == 'return') ? 'active' : ''}}"><a href="{{url('transaction_return')}}"><em class="fa fa-undo">&nbsp;</em> Return Car</a></li>
              <li class="{{ ( $act == 'report') ? 'active' : ''}}"><a href="{{url('/report/transactions')}}"><em class="fa fa-file">&nbsp;</em> Report </a></li>
-            <li class="parent {{ ( $act == 'user_admin') ? 'active' : ''}}">
+            <!-- <li class="parent {{ ( $act == 'user_admin') ? 'active' : ''}}">
                 <a data-toggle="collapse" href="#sub-item-1">
                 <em class="fa fa-users">&nbsp;</em> User Menu <span data-toggle="collapse" href="#sub-item-1" class="icon pull-right"><em class="fa fa-plus"></em></span>
                 </a>
@@ -34,7 +34,7 @@
                     </a></li>
                     <li><a class="{{ ( $act == 'user_customer') ? 'active' : ''}}" href="{{url('customers')}}">
                         <span class="fa fa-arrow-right">&nbsp;</span> Customer Rental
-                    </a></li>
+                    </a></li> -->
                 </ul>
             </li>
             <li>
@@ -45,6 +45,6 @@
                     <em class="fa fa-power-off">&nbsp;
                     </em> 
                 Logout
-            </a></li> -->
+            </a></li>
         </ul>
     </div><!--/.sidebar-->
